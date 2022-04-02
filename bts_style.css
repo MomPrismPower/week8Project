@@ -1,0 +1,73 @@
+body {
+	background-color:  #e6ecff;
+	font-family:verdana;
+}
+h1{
+	color:purple;
+}
+
+h2{
+	color:purple;
+	
+}
+
+p{
+	color:purple;
+}
+
+.bigbox {
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width: 300px;
+  margin: auto;
+  text-align:center;
+  border: 1px solid blue;
+}
+
+
+.picbox {
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 25px;
+  background: white;
+  padding: 20px;
+  width:350px;
+  margin-left: 50px;
+  text-align:center;
+  border: 1px solid purple;
+}
+	
+.picbox img {
+  height: 200px
+}
+
+.pollitem {
+margin: 10px;
+}
+
+ /* unvisited link */
+a:link {
+  color: purple;
+  text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+  color: purple;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+  font-weight:bold;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+#thatu {
+font-weight:bold;
+}
